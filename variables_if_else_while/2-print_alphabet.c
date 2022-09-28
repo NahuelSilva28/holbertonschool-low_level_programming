@@ -3,17 +3,22 @@
 #include <stdio.h>
 /**
 * main - Entry point
-* If and else
+* putchar
 * Return: Always 0 (Success)
 */
-int main(void);
+int print(void)
 {
+	int n, s;
 
-char ns;
-for (ns = 'a' ns <= 'z' ; ns++);
-{
-char(ns);
+	s = 0;
+
+	while (s < 10)
+	{
+		for (n = 'a'; n <= 'z'; n++)
+		{
+			_putchar(n);
+		}
+		s++;
+		_putchar('\n');
 	}
-	putchar(ns);
-return (0);
 }
