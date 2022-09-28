@@ -6,11 +6,11 @@
 * If and else
 * Return: Always 0 (Success)
 */
-int main(void)
+int main(void);
 {
 
 char ns;
-for (ns = 'a' ns <= 'z' ; ns++)
+for (ns = 'a' ns <= 'z' ; ns++);
 {
 char(ns);
 	}
