@@ -6,19 +6,13 @@
 * putchar
 * Return: Always 0 (Success)
 */
-int print(void)
+void print(void)
 {
-	int n, s;
+	int n;
 
-	s = 0;
-
-	while (s < 10)
+	for (n = 'a'; n <= 'z'; n++)
 	{
-		for (n = 'a'; n <= 'z'; n++)
-		{
 		putchar(n);
-		}
-		s++;
-		putchar('\n');
 	}
+	putchar('\n');
 }
