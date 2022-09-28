@@ -14,6 +14,6 @@ for (ns = 'a' ns <= 'z' ; ns++)
 {
 char(ns);
 	}
-	put char (ns);
+	putchar(ns);
 return (0);
 }
