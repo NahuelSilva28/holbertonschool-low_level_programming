@@ -19,6 +19,6 @@ int print(void)
 			_putchar(n);
 		}
 		s++;
-		_putchar('\n');
+		putchar('\n');
 	}
 }
