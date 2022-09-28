@@ -6,7 +6,7 @@
 * putchar
 * Return: Always 0 (Success)
 */
-void print(void)
+int main(void)
 {
 	int n;
 
