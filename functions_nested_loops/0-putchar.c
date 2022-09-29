@@ -6,7 +6,14 @@
 *
 * Return: (0) Success
 */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	int a;
+	char x[] = "_putchar";
+	for (a = 0; a < 9; a++)
+	{
+		putchar(x[a]);
+	}
+		putchar('\n');
+return (0);
 }
