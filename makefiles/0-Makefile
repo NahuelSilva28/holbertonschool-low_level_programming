@@ -1,2 +1,3 @@
+#include "m.h"
 all: main.c school.c
-	gcc main.c schcool.c -o schcool
+	gcc main.c school.c
