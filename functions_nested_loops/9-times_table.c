@@ -5,9 +5,9 @@
  */
 void times_table(void)
 {
-	int n1, mult, prod;
+	int n, mult, prod;
 
-	for (n1 = 0; n1 <= 9; n++)
+	for (n = 0; n <= 9; n++)
 	{
 		_putchar('0');
 
@@ -16,7 +16,7 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
-			prod = n1 * mult;
+			prod = n * mult;
 
 			if (prod <= 9)
 				_putchar(' ');
