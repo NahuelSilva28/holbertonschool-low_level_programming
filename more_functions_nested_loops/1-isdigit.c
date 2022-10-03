@@ -1,4 +1,4 @@
-#iinclude "main.h"
+#include "main.h"
 /**
 * _isdigit - checks whether a character is numeric character (0-9) or not.
 * @c: input
