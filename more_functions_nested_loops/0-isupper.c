@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
-* _isupper - a function that checks for uppercase character
+*
+* _isupper - function checks whether a character is an uppercase alphabet
 * @c: input
 * Return: 1 if c is uppercase, 0 otherwise
 */
