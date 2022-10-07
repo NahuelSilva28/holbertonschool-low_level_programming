@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "2-strlen.c"
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
