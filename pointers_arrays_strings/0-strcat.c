@@ -4,7 +4,7 @@
  * * @dest: concatinated destination
  * * @src: concatenated source
  * *Return: they always do.
- * */
+ **/
 
 char *_strcat(char *dest, char *src)
 {
