@@ -7,7 +7,6 @@
 int factorial(int n)
 {
 	int i;
-	int n = 1;
 
 	for (i = 1; i <= n ; i++)
 	{
