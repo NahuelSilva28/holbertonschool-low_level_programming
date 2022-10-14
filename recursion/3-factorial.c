@@ -6,11 +6,13 @@
  **/
 int factorial(int n)
 {
-	int i;
-
-	for (i = 1; i <= n ; i++)
+	if (n < 0)
 	{
-		n = n * i;
+		return (-1);
 	}
-	return (n);
+	if (n == 0 || n == 1)
+	{
+		return (1);
+	}
+return (n * factorial(n - 1));
 }
