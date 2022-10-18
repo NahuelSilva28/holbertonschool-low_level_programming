@@ -4,14 +4,13 @@
  *@argc: arg count
  *@argv: array of pointers
  *Return: 1
- *
- *
  **/
 int main(int argc, char *argv[])
 {
 	int a, b, result;
-	{
+
 	if (argc <= 2)
+	{
 	printf("Error\n");
 return (1);
 	}
