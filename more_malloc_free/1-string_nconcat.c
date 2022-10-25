@@ -29,9 +29,9 @@ n = b;
 }
 c = a + n;
 
-wtvr = malloc(c + 1);
+abcd = malloc(c + 1);
 
-if (wtvr == NULL)
+if (abcd == NULL)
 {
 return (NULL);
 }
