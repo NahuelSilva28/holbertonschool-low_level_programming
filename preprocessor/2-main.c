@@ -1,0 +1,10 @@
+#include "main.h"
+/**
+*main - the name of the file it was compiled from, followed by a new line.
+*Return: 00000
+**/
+int main(void)
+{
+printf("%s\n", __BASE_FILE__);
+return (0);
+}
