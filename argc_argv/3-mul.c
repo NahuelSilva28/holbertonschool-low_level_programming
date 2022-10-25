@@ -20,4 +20,3 @@ result = a *b;
 printf("%d\n", result);
 return (0);
 }
-
