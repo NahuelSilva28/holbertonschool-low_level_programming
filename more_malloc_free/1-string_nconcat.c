@@ -8,38 +8,41 @@
 **/
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-unsigned int i, j, size, len1, len2;
-	char *ptr;
+char *abcd;
+unsigned int a, b, c, d;
 
-		if (s1 == NULL)
-			s1 = "";
-		if (s2 == NULL)
-			s2 = "";
-		len1 = _strlen(s1);
-		len2 = _strlen(s2);
-		if (n > len2)
-			n = len2;
-		size = len1 + n;
-		ptr = malloc(sizeof(char) * size + 1);
-		if (!ptr)
-			return (NULL);
-		for (i = 0; i < len1; i++)
-			ptr[i] = s1[i];
-		for (j = 0; j < n; j++, i++)
-			ptr[i] = s2[j];
-		ptr[i] = 0;
-		return (0);
-}
-/**
-*_strlen - return the len
-*@s: str s
-*Return: s -p
-**/
-int _strlen(char *s)
+if (s1 == NULL)
+s1 = "";
+
+if (s2 == NULL)
+s2 = "";
+
+for (a = 0; s1[a] != '\0'; a++)
 {
-	char *p = s;
-
-	while (*s)
-		s++;
-	return (s - p);
 }
+for (b = 0; s2[b] != '\0'; b++)
+{
+}
+if (n > b)
+{
+n = b;
+}
+c = a + n;
+
+wtvr = malloc(c + 1);
+
+if (wtvr == NULL)
+{
+return (NULL);
+}
+for (d = 0; d < c; d++)
+{
+if (d < a)
+abcd[d] = s1[d];
+else
+abcd[d] = s2[d - a];
+}
+abcd[d] = '\0';
+return (abcd);
+}
+
