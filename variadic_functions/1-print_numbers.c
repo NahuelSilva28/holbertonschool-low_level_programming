@@ -11,7 +11,7 @@ register unsigned int i;
 va_list n1;
 
 va_start(n1, n);
-for (i = 0; i < n i++)
+for (i = 0; i < n; i++)
 	printf("%i%s", va_arg(n1, int), (separator &&  i != n - 1) ? separator : "");
 va_end(n1);
 printf("\n");
