@@ -11,7 +11,7 @@ unsigned int sum = 0, i;
 
 va_list ptr;
 
-if (n == 0);
+if (n == 0)
 return (0);
 va_start(ptr, n);
 
