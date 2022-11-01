@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 /**
-*print_strings - sum of all its parameters.
+*print_numbers - print numbers
 *@n: inte to add
 *@separator: sepa
 **/
