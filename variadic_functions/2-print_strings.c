@@ -26,3 +26,4 @@ printf("%s", separator);
 }
 va_end(strings);
 printf("\n");
+}
