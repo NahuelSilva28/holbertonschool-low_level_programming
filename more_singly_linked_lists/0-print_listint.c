@@ -19,5 +19,5 @@ printf("%d\n", tp->n);
 cntr++;
 tp = tp->next;
 }
-return (cntr)
+return (cntr);
 }
