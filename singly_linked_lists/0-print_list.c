@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "lists.h"
 /**
 *print_list - prints all the elements of a rather specific list
@@ -6,7 +7,7 @@
 */
 size_t print_list(const list_t *h)
 {
-	size_t retrn = 0;
+	size_t n = 0;
 
 	while (h)
 	{
