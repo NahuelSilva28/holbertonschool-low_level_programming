@@ -1,8 +1,8 @@
-C - Bit manipulation
- Amateur
+
+ ## C - Bit manipulation Amateur
 
  ## Files
-All of the following files are scripts and programs written in C:
+ All of the following files are scripts and programs written in C:
 
 | Filename | Description |
 | -------- | ----------- |
