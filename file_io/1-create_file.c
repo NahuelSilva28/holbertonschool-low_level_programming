@@ -1,4 +1,5 @@
 #include "main.h"
+
 int create_file(const char *filename, char *text_content)
 {
 
@@ -12,4 +13,16 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	if (text_content != NULL)
 	{
-		
+		lenght = 0;
+		while (*(text_content + lenght) != '\0')
+			lenght++;
+		res_write = write(fd, text_content, lenght);
+		if (res_write == -1)
+		{
+			write(1, "fails", 6);
+			return (-1);
+		}
+	}
+	close(fd);
+	return (1);
+}
