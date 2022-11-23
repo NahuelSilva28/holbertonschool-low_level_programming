@@ -6,6 +6,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
+*_error - Read file.
+*@e: Error number
+*@filename: File name
 **/
 void _error(int e, char *filename)
 {
@@ -21,6 +24,10 @@ exit(99);
 }
 }
 /**
+*cp - Copies the content of a file to another file.
+*@file_from: Name of the source
+*@file_to: Name of the destination
+*Return: 1 on success, -1 on failure.
 **/
 void cp(char *file_from, char *file_to)
 {
@@ -61,6 +68,10 @@ void cp(char *file_from, char *file_to)
 	}
 }
 /**
+*main - Copies the content of a file to another
+*@ac: Argument count
+*@av: arg values
+*Return: 0 on succes, -1 on error.
 **/
 int main(int ac, char *av[])
 {
