@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <time.h>
+
 /**
 ** main - Entry point
 ** Return: 0
 */
 int main(void)
+{
 int n;
 
 	srand(time(0));
@@ -20,3 +21,4 @@ int n;
 		printf("%d is positive\n", n);
 
 return (0);
+}
