@@ -3,16 +3,5 @@ SRC=main.c utils.c data.c
 OBJ=$(SRC:.c=.o)
 NAME=school
 
-all: $(NAME)
-
-$(NAME): $(OBJ)
-	$(CC) -o $@ $^
-
-%.o: %.c
-	$(CC) -c -o $@ $<
-
-.PHONY: all clean
-
-clean:
-	rm -f $(OBJ) $(NAME)
-
+all: $(OBJ)
+		$(OBJ) $(CC) -o $(NAME)
