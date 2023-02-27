@@ -9,7 +9,7 @@
 * @src: pointer to source string
 * Return: dest
 */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, const char *src);
 {
 	int i;
 
