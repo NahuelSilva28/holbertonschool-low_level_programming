@@ -27,6 +27,7 @@ int _strlen(char *s);
 char *_strncat(char *dest, char *src, int n);
 int _strncmp(char *s1, char *s2, unsigned int n);
 char *_strncpy(char *dest, char *src, int n);
+char *_strcpy(char *dest, char *src);
 char *_strpbrk(char *s, char *accept);
 unsigned int _strspn(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
