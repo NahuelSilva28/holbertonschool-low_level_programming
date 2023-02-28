@@ -1,7 +1,3 @@
-The code you provided is already quite simple and clear. However, here's a version with some minor changes to improve readability:
-
-c
-Copy code
 #include "main.h"
 
 /**
