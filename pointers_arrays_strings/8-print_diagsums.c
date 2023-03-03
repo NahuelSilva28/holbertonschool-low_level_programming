@@ -9,13 +9,14 @@ void print_diagsums(int *matrix, int size)
 {
 	int diagonal_sum_1 = 0;
 	int diagonal_sum_2 = 0;
+	int i = 0;
 
-	for (int i = 0; i < size * size; i += size + 1)
+	for (i = 0; i < size * size; i += size + 1)
 	{
 	diagonal_sum_1 += matrix[i];
 	}
 
-	for (int i = size - 1; i < size * size - 1; i += size - 1)
+	for (i = size - 1; i < size * size - 1; i += size - 1)
 	{
 	diagonal_sum_2 += matrix[i];
 	}
