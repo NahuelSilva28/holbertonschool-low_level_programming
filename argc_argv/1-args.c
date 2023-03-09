@@ -8,12 +8,13 @@
 */
 int main(int argc, char **argv)
 {
+int num_arguments;
 if (argc < 2)
 {
 printf("Usage: %s <argument1> <argument2> ... <argumentN>\n", argv[0]);
 return 1;
 }
-int num_arguments = argc - 1;
+num_arguments = argc - 1;
 printf("Number of arguments: %d\n", num_arguments);
 return 0;
 }
