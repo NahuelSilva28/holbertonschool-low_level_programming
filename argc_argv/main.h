@@ -14,13 +14,14 @@
 #include <stdarg.h>
 #include <stddef.h>
 #include <string.h>
+#include <ctype.h>  /* isdigit */
 /**
- *  * _putchar - writes the character c to stdout
- *   * @c: The character to print
- *    * _isupper - function checks whether a character is an uppercase alphabet
- *     * Return: On success 1.
- *      * On error, -1 is returned, and errno is set appropriately.
- *       */
+ ** _putchar - writes the character c to stdout
+ ** @c: The character to print
+ ** _isupper - function checks whether a character is an uppercase alphabet
+ ** Return: On success 1.
+ ** On error, -1 is returned, and errno is set appropriately.
+ **/
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
