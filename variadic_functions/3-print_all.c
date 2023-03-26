@@ -7,26 +7,25 @@
 
 void print_all(const char * const format, ...)
 {
-va_list args;
-unsigned int i = 0, j;
-char *str;
-const char t_arg[] = "cifs";
+	va_list args;
+	int i = 0, j = 0;
+	char *str;
+	const char t_arg[] = "cifs";
+	char arg;
 
 va_start(args, format);
 
 while (format && format[i])
 {
+arg = format[i];
 j = 0;
+
 while (t_arg[j])
 {
-if (format[i] == t_arg[j] && i != 0)
+if (arg == t_arg[j])
 {
-printf(", ");
-break;
-}
-j++;
-}
-switch (format[i])
+switch (arg)
+{
 case 'c':
 printf("%c", va_arg(args, int));
 break;
@@ -43,7 +42,20 @@ printf("(nil)");
 else
 printf("%s", str);
 break;
+}
+
+if (format[i + 1])
+printf(", ");
+
+break;
+}
+
+j++;
+}
+
 i++;
+}
+
 printf("\n");
 va_end(args);
 }
