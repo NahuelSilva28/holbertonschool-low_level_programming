@@ -6,10 +6,10 @@ In C programming language, a singly linked list can be implemented using a struc
 
 Here is an example of a singly linked list node implementation in C:
 
-**struct Node {
+struct Node {
     int data;
     struct Node* next;
-};**
+};
 
 To create a singly linked list in C, we can use a combination of dynamic memory allocation and pointer manipulation to allocate memory for each node and connect them together.
 
